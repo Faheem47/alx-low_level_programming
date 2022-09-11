@@ -1,9 +1,11 @@
 #include<stdio.h>
 /**
- * main is the entry point of the program
+ * main - entry point of the program
+ * main is executed when the program runs
  * Return always 0 (success)
  */
 int main(void)
-{puts("\"Programming is like building a multilingual puzzle");
-return	(0);	
+{
+puts("\"Programming is like building a multilingual puzzle");
+return	(0);
 }
