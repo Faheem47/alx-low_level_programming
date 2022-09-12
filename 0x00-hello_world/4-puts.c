@@ -2,8 +2,7 @@
 /**
  * main - entry point of the program
  * main is executed when the program runs
- * return: 0 (success)
- * the return value for main is used to indicate how the program exited
+ * Return: Always 0 (success)
  */
 int main(void)
 {
