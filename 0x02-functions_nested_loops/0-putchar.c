@@ -1,20 +1,16 @@
 #include "main.h"
-#include<stdio.h>
 /**
- * main - entry point of the program
- * _putchar - writes the character c to stdout
- * Return: on success 1
- *         on error, -1 is returned, and errno is set appropriately
+ * main - Print the word "_putchar"
+ * Return: Always 0
  */
 int main(void)
-{
-	char s[] = "_putchar";
-	int i = 0;
+{	int i;
+	char p[] = "_putchar";
 
-	while (s[i] != '\0')
-	{	_putchar(s[i]);
-		i++;
+	for (i = 0; i < 8; i++)
+	{
+		_putchar(p[i]);
 	}
-	_putchar(10);
+	_putchar('\n');
 	return (0);
 }
